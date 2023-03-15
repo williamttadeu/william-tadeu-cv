@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/responsive-menu.css">
+    <!-- FONTES IMPORTADAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <title>WillWebDev</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- MENU RESPONSIVO JAVASCRIPT INIT-->
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+              <div class="site-name">
+                William Tadeu
+              </div>
+            </label>
+            <nav class="responsive-menu">
+              <a onclick="closeMenu()" href="#about">Quem sou eu</a>
+              <a onclick="closeMenu()" href="#resume">Resumo</a>
+              <a onclick="closeMenu()" href="#contact">Contato</a>
+            </nav>
+          </header>
+          <!-- END MENU RESPONSIVO JAVASRIPT -->
+
+
+        <div class="menu">
+            <div class="top-menu">
+                
+                <div class="fill-animation">
+                    <h2 data-text="WT" class="fill-animation">WT</h2>
+                </div>
+                    <!-- <h2>WT</h2> -->
+                    <p class="letra1">William Tadeu</p>
+                    <p class="letra2"> Web Developer</p>
+        
+                                
+            </div>
+            
+
+            <div class="middle-menu">
+                <p>
+                <a href="#about">
+                        <i class="fa-sharp fa-solid fa-user-tie"> </i>
+                    </a> 
+                </p>
+
+                <p>
+                    <a href="#resume">
+                        <i class="fa-sharp fa-solid fa-file"></i>
+                    </a>
+                    
+                </p>
+
+                <p>
+                    <a href="#contact">
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                    </a>
+
+                </p>
+
+            </div>
+                    
+            
+        </div>
+        <div class="content">
+
+            <h2 class="title">
+                About Me
+            </h2>
+           
+
+            <div class="content-initial-2 card" id="about">
+
+                <div class="content-initial-2-photo">
+
+                    <!-- <img src="./IMG/IMAGEM-2.jpeg" alt="" class="img-profile"> -->
+                    <center>
+                        <img src="./IMG/IMAGEM-2.jpeg" alt="" class="img-profile">
+                    </center>
+                    
+
+                </div>
+
+                <div class="content-initial-2-self">
+
+                    <h3>
+                        William Tadeu
+                    </h3>
+
+                    <p class="timelineitem-period">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Manaus, Brazil
+                    </p>
+
+                    <p>
+                        I'm brazilian FullStack Developer who have great Html, CSS, Javascript skills.
+                        I also have experience working with embedded system and heat transfer algorithms using Python and Wolfram.                
+                    </p>
+                    <p>
+                        I work every single day to improve my skills and i'll be happy if we can help each other.
+              Feel free to take a look and share my latest projects in this page.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <h2 class="title">Areas de Atuação</h2>
+<!-- A unica maneira que consegui foi colocando ele para fora -->
+
+            <div class="service-container">
+                
+               <!--  <h2 class="title">Areas de Atuação</h2> -->
+
+                <div class="service-item">
+                    <div class="service-item-itemcard card">
+                        <div class="service-item-itemcard-icon">
+                            <i class="fa-solid fa-desktop"> </i>
+
+                        </div>
+
+                        <div class="service-item-itemcard-title">
+                            <h3>Front End Developer</h3>
+
+                        </div>
+
+                        <div class="service-item-itemcard-description">
+                            <span>Html, Javascript(Angular, JQuery, React), Css...</span>
+
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-item-itemcard card">
+                        <div class="service-item-itemcard-icon">
+                            <i class="fa-solid fa-cogs"> </i>
+
+                        </div>
+
+                        <div class="service-item-itemcard-title">
+                            <h3>Back End Developer</h3>
+
+                        </div>
+
+                        <div class="service-item-itemcard-description">
+                            <span>Node, PHP(Zend Framework, Slim Framework, Laravel), Java, etc...</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-item-itemcard card">
+                        <div class="service-item-itemcard-icon">
+                            <i class="fa-solid fa-mobile-alt"> </i>
+
+                        </div>
+
+                        <div class="service-item-itemcard-title">
+                            <h3>Mobile Developer</h3>
+
+                        </div>
+
+                        <div class="service-item-itemcard-description">
+                            <span>Android, React Native, Ionic, etc...</span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-itemcard card">
+                        <div class="service-item-itemcard-icon">
+                            <i class="fa-solid fa-database"> </i>
+
+                        </div>
+
+                        <div class="service-item-itemcard-title">
+                            <h3>Data Analyst</h3>
+
+                        </div>
+
+                        <div class="service-item-itemcard-description">
+                            <span>Python, MySQL, etc....</span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-itemcard card">
+                        <div class="service-item-itemcard-icon">
+                            <i class="fa-sharp fa-solid fa-atom"></i>
+
+                        </div>
+
+                        <div class="service-item-itemcard-title">
+                            <h3>Scientifc Computing</h3>
+
+                        </div>
+
+                        <div class="service-item-itemcard-description">
+                            <span>Wolfram, Python, etc...</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </div>
+<!-- INIT - BLOCK 04 - RESUME -->
+
+            <div class="experiencesection" id="resume">
+                <h2 class="title">Resume</h2>
+
+                <div class="flexbox">
+                            <div class="flexbox-education">
+                                <h3 class="title">Education</h3>
+                                <div class="card">
+
+                                    <div class="timelineitem">
+
+                                        <div class="timelineitem-marker">
+                                            <div class="timelineitem-marker-circle">
+
+                                            </div>
+                                            <div class="timelineitem-marker-line">
+
+                                            </div>
+
+                                        </div>
+
+                                        <h3>
+                                            Graduate
+                                        </h3>
+
+                                        <p class="timelineitem-period">
+                                            <i class="fa-solid fa-calendar-days"> </i>
+                                            2014 - 2022 | Engenharia Mecânica
+                                        </p>
+
+                                        <p>
+                                            Universiversidade Federal do Amazonas - UFAM
+                                        </p>
+                                    </div>
+
+
+
+                                    <div class="timelineitem">
+
+                                        <div class="timelineitem-marker">
+                                            <div class="timelineitem-marker-circle">
+
+                                            </div>
+                                            <div class="timelineitem-marker-line">
+
+                                            </div>
+
+                                        </div>
+
+                                        <h3>
+                                            Course
+                                        </h3>
+
+                                        <p class="timelineitem-period">
+                                            <i class="fa-solid fa-calendar-days"> </i>
+                                            2022 | Free Code Camp
+                                        </p>
+
+                                        <p>
+                                            Scientifc Computing with Python
+                                        </p>
+                                    </div>
+
+                                    <div class="timelineitem">
+
+                                        <div class="timelineitem-marker">
+                                            <div class="timelineitem-marker-circle">
+
+                                            </div>
+                                            <div class="timelineitem-marker-line">
+
+                                            </div>
+
+                                        </div>
+
+                                        <h3>
+                                            Course
+                                        </h3>
+
+                                        <p class="timelineitem-period">
+                                            <i class="fa-solid fa-calendar-days"> </i>
+                                            2022 | Free Code Camp
+                                        </p>
+
+                                        <p>
+                                            Responsive Web Design
+                                        </p>
+                                    </div>
+
+                                    <div class="timelineitem">
+
+                                        <div class="timelineitem-marker">
+                                            <div class="timelineitem-marker-circle">
+
+                                            </div>
+                                            <div class="timelineitem-marker-line">
+
+                                            </div>
+
+                                        </div>
+
+                                        <h3>
+                                            Course
+                                        </h3>
+
+                                        <p class="timelineitem-period">
+                                            <i class="fa-solid fa-calendar-days"> </i>
+                                            2023 | Developer Career
+                                        </p>
+
+                                        <p>
+                                            FullStack Javascript Developer
+                                        </p>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+                            <div class="flexbox-projects">
+                                <h3 class="title">Projects</h3>
+                                <div class="card">
+                                    <div class="timelineitem">
+
+                                        <div class="timelineitem-marker">
+                                            <div class="timelineitem-marker-circle">
+
+                                            </div>
+                                            <div class="timelineitem-marker-line">
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                        <h3>
+                                            My Web Site
+                                        </h3>
+
+                                        <p class="timelineitem-period">
+                                            <i class="fa-solid fa-calendar-days"> </i>
+                                            2023 - January
+                                        </p>
+
+                                        <p>Aqui utilizei HTML, CSS para realizar o desenvolvimento
+                                            do site.
+                                        </p>
+                                    </div>
+
+                                    <div class="timelineitem">
+
+                                        <div class="timelineitem-marker">
+                                            <div class="timelineitem-marker-circle">
+
+                                            </div>
+                                            <div class="timelineitem-marker-line">
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                        <h3>
+                                            Forms
+                                        </h3>
+
+                                        <p class="timelineitem-period">
+                                            <i class="fa-solid fa-calendar-days"> </i>
+                                            2023 - January
+                                        </p>
+
+                                        <p>Aqui utilizei HTML, CSS para realizar o desenvolvimento
+                                            do site.
+                                        </p>
+                                    </div>
+
+                                    <div class="timelineitem">
+
+                                        <div class="timelineitem-marker">
+                                            <div class="timelineitem-marker-circle">
+
+                                            </div>
+                                            <div class="timelineitem-marker-line">
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                        <h3>
+                                            Supermercado
+                                        </h3>
+
+                                        <p class="timelineitem-period">
+                                            <i class="fa-solid fa-calendar-days"> </i>
+                                            2023 - January
+                                        </p>
+
+                                        <p>Aqui utilizei HTML, CSS para realizar o desenvolvimento
+                                            do site.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                </div>
+
+<!-- Bloc 04.1 Skills -->
+
+                <h3 class="title">Skills</h3>
+                <div class="card paddingtop60">
+                    <div class="progressbar">
+                        <div class="progressbar-title" >
+                            HTML5
+
+                        </div>
+
+                        <div class="progressbar-done" style="width: 98%;">
+                            <div class="progressbar-done-text">
+                                98%
+                            </div>
+
+                            <div class="progressbar-done-check">
+
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="progressbar">
+                        <div class="progressbar-title">
+                            CSS
+
+                        </div>
+
+                        <div class="progressbar-done"  style="width: 98%;">
+                            <div class="progressbar-done-text">
+                                98%
+                            </div>
+
+                            <div class="progressbar-done-check">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="progressbar">
+                        <div class="progressbar-title">
+                            Javascript
+
+                        </div>
+
+                        <div class="progressbar-done"  style="width: 90%;">
+                            <div class="progressbar-done-text">
+                                90%
+                            </div>
+
+                            <div class="progressbar-done-check">
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="progressbar">
+                        <div class="progressbar-title">
+                            Python
+
+                        </div>
+
+                        <div class="progressbar-done"   style="width: 90%;">
+                            <div class="progressbar-done-text">
+                                90%
+                            </div>
+
+                            <div class="progressbar-done-check">
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="progressbar">
+                        <div class="progressbar-title">
+                            Wolfram
+
+                        </div>
+
+                        <div class="progressbar-done"  style="width: 98%;">
+                            <div class="progressbar-done-text" >
+                                98%
+                            </div>
+
+                            <div class="progressbar-done-check">
+                                
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+
+
+
+            </div>
+
+<!-- INIT BLOCK 05 - CONTACT -->
+
+            <div class="contactsection" id="contact">
+                <h2 class="title">Contato</h2>
+                <div class="card flexbox">
+                    <div class="contactitem flexbox">
+                        <div class="contactitem-icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <div class="contactitem-valeu">
+                            <a href="mailto:wtlcruz@gmail.com">wtlcruz@gmail.com</a>
+                            
+
+                        </div>
+                        <div class="contactitem-description">
+                            E-mail
+
+                        </div>
+                    </div>
+
+                    <div class="contactitem flexbox">
+                        <div class="contactitem-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contactitem-valeu">
+                            <a href="https://instagram.com/williamttadeu?igshid=ZmZhODViOGI=" target="_blank">
+                                @williamttadeu
+                            </a>
+                            
+
+                        </div>
+                        <div class="contactitem-description">
+                            Instagram
+
+                        </div>
+                    </div>
+
+                    <div class="contactitem flexbox">
+                        <div class="contactitem-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contactitem-valeu">
+                            +55 92 98212-4868
+
+                        </div>
+                        <div class="contactitem-description">
+                            Phone
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    </div>
+
+<!-- JavaScript do menu responsivo, para fechar sozinho -->
+    <script>
+        function closeMenu() 
+        {(document.getElementById("btn-menu").checked = false)}
+    </script>
+
+</body>
+</html>
